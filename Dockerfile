@@ -8,7 +8,7 @@ WORKDIR /inventory_management_system
 COPY . /inventory_management_system/
 
 RUN pip install poetry
-
+ 
 RUN poetry install
 
 # command to run on container start
